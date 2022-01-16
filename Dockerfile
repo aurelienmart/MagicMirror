@@ -2,6 +2,6 @@ FROM node
 
 ADD . .
 
-RUN npm install
 EXPOSE 80
-RUN npm run server
+RUN npm install
+CMD npm run server
